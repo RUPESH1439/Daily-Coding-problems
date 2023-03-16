@@ -8,7 +8,7 @@ function reverse(x: number): number {
     }
     let length = 0
     let _x = Math.abs(x)
-    const numbers = []
+    const numbers:number[] = []
     while(_x > 0){
         numbers.push(_x % 10)
         _x = Math.floor(_x/10)
